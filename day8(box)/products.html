@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+             height:100vh;
+            margin:0;
+            padding:0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+            display:flex;
+            justify-content: center;
+            gap:20px;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .product{
+            border: 2px solid black;
+            width:360px;
+            margin-bottom: 20px;
+            padding:20px;
+            border-radius: 13px;
+            text-align: center;
+            /* box-shadow: Xaxis Yaxis Spead-radius color; */
+            box-shadow:  4px 13px   8px  black;
+            
+
+        }
+        .product h2{
+            border-bottom: 1px solid black;
+        }
+        .product img{
+            width:100%;
+            height:320px;
+            object-fit: cover;
+            border-radius: 13px;
+        }
+        .product button{
+            background-color: darkorange;
+            border: none;
+            padding:10px;
+            border-radius: 13px;
+            width:90%;
+        }
+    </style>
+</head>
+<body>
+    <div class="product">
+        <img src="https://images.pexels.com/photos/33511755/pexels-photo-33511755.jpeg" >
+        <h2>Watch</h2>
+        <p>Rs.9999</p>
+        <button>Buy now</button>
+    </div>
+    <div class="product">
+        <img src="https://images.pexels.com/photos/19102355/pexels-photo-19102355.jpeg" >
+        <h2>Cap</h2>
+        <p>Rs.899</p>
+        <button>Buy now</button>
+    </div>
+    <div class="product">
+        <img src="https://images.pexels.com/photos/34946642/pexels-photo-34946642.jpeg" >
+        <h2>White shirt</h2>
+        <p>Rs.2999</p>
+        <button>Buy now</button>
+    </div>
+    <div class="product">
+        <img src="https://images.pexels.com/photos/36343444/pexels-photo-36343444.jpeg" >
+        <h2>Wallet</h2>
+        <p>Rs.3799</p>
+        <button>Buy now</button>
+    </div>
+
+</body>
+</html>
